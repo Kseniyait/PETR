@@ -1,0 +1,14 @@
+touch file1
+mkdir dir1
+rm file1
+tar -c file1 dir1 -f arch.tar
+tar -x arch.tar
+chmod +x file1
+chown user:user file1
+ps - aux
+hostname
+cp file1 file2
+cat file1
+ls > res.txt
+cd/home/user/git-folder
+mv -v file1 file3 >>res.txt
